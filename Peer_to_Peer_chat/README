@@ -1,0 +1,1 @@
+A simple chat server using the select() function for simulating concurrency of connections.
