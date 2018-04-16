@@ -1,4 +1,4 @@
-***Memory Resident File System***
+**Memory Resident File System**
 
 The main header file is named myfs.h
 
