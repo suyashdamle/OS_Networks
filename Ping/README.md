@@ -8,7 +8,7 @@
 The function:
 
 '''cpp
-void ping_and_receive()
+	void ping_and_receive()
 '''
 does the main work of **manually creating the IP (v4) and the ICMP headers** according to the standard structures of these headers:
 
@@ -29,7 +29,6 @@ does the main work of **manually creating the IP (v4) and the ICMP headers** acc
 
 '''cpp
 	int hdrincl=1; // FOR DISABLING IP HEADER INCLUSION
-  
-  setsockopt(sd, IPPROTO_IP,IP_HDRINCL, &hdrincl, sizeof(hdrincl));
+  	setsockopt(sd, IPPROTO_IP,IP_HDRINCL, &hdrincl, sizeof(hdrincl));
 '''
 
