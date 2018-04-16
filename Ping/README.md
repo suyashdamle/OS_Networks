@@ -12,16 +12,18 @@ The function:
 ```
 does the main work of **manually creating the IP (v4) and the ICMP headers** according to the standard structures of these headers:
 
-**IPv4 Header**
 
+**IPv4 Header**
 
 ![IP header](https://github.com/suyashdamle/Miscellaneous/blob/master/Ping/IP_hdr.png)
 
 
 **ICMP Header**
 
-
 ![ICMP header](https://github.com/suyashdamle/Miscellaneous/blob/master/Ping/icmp-basic-headers.png)
+
+
+
 
 
 
