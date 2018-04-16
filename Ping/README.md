@@ -21,7 +21,7 @@ does the main work of **manually creating the IP (v4) and the ICMP headers** acc
 **ICMP Header**
 
 
-![ICMP header](https://github.com/suyashdamle/Miscellaneous/blob/master/Ping/icmp-basic-headers.jpg)
+![ICMP header](https://github.com/suyashdamle/Miscellaneous/blob/master/Ping/icmp-basic-headers.png)
 
 
 
