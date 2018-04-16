@@ -9,7 +9,7 @@ A complete file system with up-to double indirect block addressing supporting th
 - opening, closing and reading files
 - saving and restoring the entire mrfs to/from disk
 
-The following high-level functions are provided by the header file:
+The following high-level functions are provided by the header file and are used in the test files:
 ```cpp
 int open_myfs(const char *file_name,char mode);  // TO OPEN FILES
 int close_myfs(int fd);
