@@ -27,7 +27,7 @@ does the main work of **manually creating the IP (v4) and the ICMP headers** acc
 
 
 
-**NOTE:** One hase to prevent the kernel from adding the IP header by itself. The following code segment tells the kernel that the IP header is being included in the packet by the code:
+**NOTE:** One has to prevent the kernel from adding the IP header by itself. The following code segment tells the kernel that the IP header is being included in the packet by the code:
 
 ```cpp
 	int hdrincl=1; // FOR DISABLING IP HEADER INCLUSION
